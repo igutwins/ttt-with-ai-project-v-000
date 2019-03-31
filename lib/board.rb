@@ -22,7 +22,6 @@ class Board
   end
 
   def update(position,object)
-    position(postion) = object
   end
 
   def token
