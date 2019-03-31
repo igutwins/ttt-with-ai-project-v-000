@@ -5,7 +5,7 @@ class Board
     reset!
   end
 
-  def reset!
+  def self.reset!
     cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
 
