@@ -1,5 +1,5 @@
 class Board
-
+cells = []
   def initialize
     reset!
   end
