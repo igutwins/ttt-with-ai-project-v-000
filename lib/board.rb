@@ -23,7 +23,6 @@ class Board
   end
 
   def update(input,token)
-    position(input) = token
   end
 
   def token
