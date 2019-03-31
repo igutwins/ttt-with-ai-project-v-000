@@ -39,11 +39,11 @@ class Board
   end
 
   def valid_move?(input)
-    if taken?(input) || input < 1 || input > 9
+    if taken?(input) || input.to_i < 1 || input.to_i > 9
       false
     else
       true
-    end
+    end 
   end
 
   def turn_count
