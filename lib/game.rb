@@ -13,5 +13,6 @@ WIN_COMBINATIONS = [
 ]
 
 def initialize(player_1=human, player_2=human, board)
+end 
 
 end
