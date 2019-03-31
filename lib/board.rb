@@ -43,7 +43,7 @@ class Board
       false
     else
       true
-    end 
+    end
   end
 
   def turn_count
