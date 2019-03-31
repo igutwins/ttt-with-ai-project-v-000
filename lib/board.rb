@@ -22,4 +22,9 @@ def position(input)
   cells[index]
 end
 
+def update(position,object)
+  position(postion) = object
+
+end
+
 end
