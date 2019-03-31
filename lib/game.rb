@@ -12,4 +12,6 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
+def initialize(player_1=human, player_2=human, board)
+
 end
