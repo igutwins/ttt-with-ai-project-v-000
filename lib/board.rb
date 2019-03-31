@@ -22,8 +22,8 @@ class Board
     cells[index]
   end
 
-  def update(position,object)
-    position(position) = object
+  def update(input,token)
+    position(input) = token
   end
 
   def token
