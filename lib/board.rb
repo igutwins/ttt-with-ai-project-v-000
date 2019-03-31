@@ -29,17 +29,20 @@ class Board
 
   end
 
-  def taken?(position)
-    input = position(position)
-    if input == "X" || input == "O"
+  def taken?(input)
+    token = position(input)
+    if token == "X" || token == "O"
       true
     else
       false
     end
   end
 
-  def valid_move?
-
+  def valid_move?(input)
+    if 
+      true 
+    else 
+      false 
   end
 
   def turn_count
