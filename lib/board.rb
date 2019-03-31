@@ -41,4 +41,8 @@ class Board
     cells.count{|x| x == "X" || x == "O"}
   end
 
+  def full? 
+    cells.all?{|x| x == "X" || x == "O" }
+  end 
+
 end
