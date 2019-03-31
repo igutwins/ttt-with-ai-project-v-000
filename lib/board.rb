@@ -18,7 +18,7 @@ class Board
   end
 
   def position(input)
-    index = input.to_i - 1
+    input.to_i - 1
   end
 
   def update(input,token)
