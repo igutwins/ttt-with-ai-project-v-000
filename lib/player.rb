@@ -6,7 +6,3 @@ attr_accessor :token
   end
 
 end
-
-class Human < Player
-
-end 
