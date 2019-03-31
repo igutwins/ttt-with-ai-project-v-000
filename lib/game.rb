@@ -21,7 +21,7 @@ WIN_COMBINATIONS = [
   end
 
   def current_player
-    if board.count{|c| c == "X" || c == "O"} % 2 == 0
+    if @board.count{|c| c == "X" || c == "O"} % 2 == 0
       player_1
     else
       player_2
