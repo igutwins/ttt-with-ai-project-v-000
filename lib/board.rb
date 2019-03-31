@@ -29,8 +29,12 @@ class Board
 
   end
 
-  def taken?
-
+  def taken?(position)
+    if cells[position] == "X" || cells[position] == "O"
+      true 
+    else 
+      false 
+    end 
   end
 
   def valid_move?
