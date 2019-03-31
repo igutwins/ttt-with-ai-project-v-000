@@ -5,7 +5,7 @@ def initialize
   reset
 end
 
-def reset
+def reset!
   @@cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
 
