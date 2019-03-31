@@ -19,10 +19,10 @@ class Board
 
   def position(input)
     index = input.to_i - 1
-    cells[index]
   end
 
   def update(input,token)
+    cells
   end
 
   def token
