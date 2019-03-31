@@ -39,9 +39,7 @@ class Board
   end
 
   def valid_move?(input)
-    if taken?(input)
-      false
-    elsif input != 1..9
+    if taken?(input) || input < 1 || input > 9
       false
     else
       true
