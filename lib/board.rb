@@ -39,10 +39,10 @@ class Board
   end
 
   def valid_move?(input)
-    if 
-      true 
-    else 
-      false 
+    if
+      true
+    else
+      false
   end
 
   def turn_count
