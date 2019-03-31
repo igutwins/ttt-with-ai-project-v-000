@@ -13,8 +13,9 @@ WIN_COMBINATIONS = [
 ]
 
 def initialize(player_1=human, player_2=human, board)
-  Board.new
-  Player.new
+  board = Board.new
+  player_1 = Player.new("X")
+  player_2 = Player.new("O")
 end
 
 end
