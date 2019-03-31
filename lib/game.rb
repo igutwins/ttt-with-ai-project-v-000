@@ -14,7 +14,7 @@ WIN_COMBINATIONS = [
 
 
 
-def initialize(player_1=human, player_2=human, board)
+def initialize(player_1, player_2, board)
   board = Board.new
   player_1 = Player.new("X")
   player_2 = Player.new("O")
