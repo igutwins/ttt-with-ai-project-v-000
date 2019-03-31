@@ -13,7 +13,7 @@ WIN_COMBINATIONS = [
 ]
 
 def board
-  @board
+  @board = []
 end
 
 def initialize(player_1=human, player_2=human, board)
