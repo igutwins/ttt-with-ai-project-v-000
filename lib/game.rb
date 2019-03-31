@@ -20,22 +20,22 @@ WIN_COMBINATIONS = [
     @player_2 = player_2
   end
 
-  def current_player 
-  end 
+  def current_player
+  end
 
-  def won? 
-  end 
+  def won?
+  end
 
   def winner
-  end 
+  end
 
-  def start 
-  end 
+  def start
+  end
 
   def play
-  end 
+  end
 
-  def turn 
-  end 
+  def turn
+  end
 
 end
