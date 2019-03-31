@@ -1,12 +1,12 @@
 class Board
-@@cells = [] 
+@@cells = []
 
 def initialize
   reset
 end
 
-def reset 
-  @@cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "] 
-end  
+def reset
+  @@cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+end
 
-end 
+end
