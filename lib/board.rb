@@ -23,7 +23,8 @@ class Board
   end
 
   def update(input,token)
-    cells[input.to_i - 1] = token
+    index = input.to_i - 1
+    cells[index] = token
   end
 
   def token
