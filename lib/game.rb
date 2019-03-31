@@ -12,6 +12,10 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
+def board 
+  @board
+end 
+
 def initialize(player_1=human, player_2=human, board)
   board = Board.new
   player_1 = Player.new("X")
